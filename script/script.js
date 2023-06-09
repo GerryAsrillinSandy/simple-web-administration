@@ -7,7 +7,7 @@ document
     var password = document.getElementById("password").value;
 
     // Send login credentials to the server for verification
-    fetch("login.php", {
+    fetch("script/login.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
